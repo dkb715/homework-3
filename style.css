@@ -22,3 +22,15 @@ h1 {
 h2 {
     color: lightblue;
 }
+form {
+    text-align:left;
+    margin-left: 340px;
+    color:  rgb(45, 2, 114);
+    font-size: larger;
+}
+
+h3 {
+    color: rgb(6, 232, 248);
+    font-size: x-large;
+}
+

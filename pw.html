@@ -15,6 +15,13 @@
       <h1>Password Generator</h1>
     </header>
     <h2>Generate a Password</h2>
+    <h3>Criteria</h3>
+    <form action="/action_page.php" method="get">
+      <input type="checkbox" name="Characters" value="Special">Special Characters<br>
+      <input type="checkbox" name="numbers" value="Numeric">Numeric Characters<br>
+      <input type="checkbox" name="letters" value="Lowercase">Lowercase Characters<br>
+      <input type="checkbox" name="upletter" value="Uppercase">Uppercase Characters<br>
+    </form>
     <textarea  
       id="password"
       placeholder="Your Secure Password"
